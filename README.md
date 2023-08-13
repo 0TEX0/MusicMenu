@@ -9,7 +9,9 @@ Follow these steps to install the script on your FiveM server:
 1. **Download** the script by clicking on the "Code" button of this repository, then choose "Download ZIP".
 2. **Extract** the content of the downloaded ZIP file.
 3. **Place** the extracted folder into the `resources` directory of your FiveM server.
-4. **Open** your server's `server.cfg` file and add the following line: `ensure MusicMenu`
+4. Make sure to install the dependency, `xsound`, by adding it to your server's `resources` directory as well.
+   You can find `xsound` at: [xsound GitHub Repository](https://github.com/Xogy/xsound)
+5. **Open** your server's `server.cfg` file and add the following line: `ensure MusicMenu`
 
 ## Usage
 
